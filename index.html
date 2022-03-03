@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
+    <title>Weather App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Open+Sans:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="aboutBtn">About</div>
+    <div id="contentHolder">
+    <div id="mainContent">
+      <div id="mainImage">
+        <img src="./img/WeatherOpen_crop.png" alt="Weather Logo" height="92" />
+      </div>
+      <div id="searchBar">
+        <div id="searchIcon">
+          <img
+            src="./img/searchIcon.svg"
+            alt="search icon"
+            width="17px" />
+        </div>
+        <div id="searchInputHolder">
+          <div id="searchInputNested">
+            <input id="searchInput" type="text" placeholder="search a location...">
+            <div id="clearSearch">X</div>
+          </div>
+        </input>
+          <div id="searchDropdown">
+          </div>
+        </div>
+        
+        <div id="locationIcon">
+          <img
+            src="./img/mapMarker.svg"
+            alt="map marker icon"
+            width="22px" />
+        </div>
+      </div>
+      
+    </div>
+    <div id="resultsHolder">
+      <div id="resultsInnerHolder"></div>
+    </div>
+  </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
